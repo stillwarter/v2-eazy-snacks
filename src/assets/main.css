@@ -1,0 +1,29 @@
+@import './base.css';
+
+#app {
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsl(160deg 100% 37% / 100%);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsl(160deg 100% 37% / 20%);
+  }
+}
+
+/* @media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
